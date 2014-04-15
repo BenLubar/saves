@@ -225,9 +225,46 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
     puts "B-25 #{i32(f)}"
     b26 = i32(f)
     puts "B-26 #{sprintf '%08x', b26}"
-    puts "B-27 #{f.read(74).inspect}" unless b26 & 2 == 0
-    puts "B-28 #{f.read(40).inspect}" unless b26 & 1 == 0
-    puts "B-29 #{s(f).inspect}"
-    puts "B-30 #{f.read(6).inspect}" unless b0 & 0x800 == 0
+    unless b26 & 2 == 0
+      puts "B-27 #{i32(f)}"
+      puts "B-28 #{i32(f)}"
+      puts "B-29 #{i16(f)}"
+      puts "B-30 #{i32(f)}"
+      puts "B-31 #{i32(f)}"
+      puts "B-32 #{i32(f)}"
+      puts "B-33 #{i32(f)}"
+      puts "B-34 #{i16(f)}"
+      puts "B-35 #{i32(f)}"
+      puts "B-36 #{i32(f)}"
+      puts "B-37 #{i16(f)}"
+      puts "B-38 #{i32(f)}"
+      puts "B-39 #{i32(f)}"
+      puts "B-40 #{i32(f)}"
+      puts "B-41 #{i32(f)}"
+      puts "B-42 #{i16(f)}"
+      puts "B-43 #{i32(f)}"
+      puts "B-44 #{i32(f)}"
+      puts "B-45 #{i16(f)}"
+      puts "B-46 #{i32(f)}"
+      puts "B-47 #{i32(f)}"
+    end
+    unless b26 & 1 == 0
+      puts "B-48 #{i32(f)}"
+      puts "B-49 #{i16(f)}"
+      puts "B-50 #{i32(f)}"
+      puts "B-51 #{i32(f)}"
+      puts "B-52 #{i32(f)}"
+      puts "B-53 #{i32(f)}"
+      puts "B-54 #{i32(f)}"
+      puts "B-55 #{i16(f)}"
+      puts "B-56 #{i32(f)}"
+      puts "B-57 #{i32(f)}"
+      puts "B-58 #{i32(f)}"
+    end
+    puts "B-59 #{s(f).inspect}"
+    unless b0 & 0x800 == 0
+      puts "B-60 #{i32(f)}"
+      puts "B-61 #{i16(f)}"
+    end
   end
 end
