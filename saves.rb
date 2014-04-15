@@ -119,7 +119,7 @@ def s io
 end
 
 def expect label, actual, expected, description='TODO'
-  raise "#{label}: expected #{expected.inspect} but got #{actual.inspect}" unless expected === actual
+  raise "#{label} (#{description}): expected #{expected.inspect} but got #{actual.inspect}" unless expected === actual
   annotate label, actual, "#{expected.inspect} observed; #{description}"
 end
 
@@ -138,23 +138,29 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
   expect 'A-2', i32(f), a1, 'unknown A-1'
   a3 = i32(f)
   annotate 'A-3', a3, 'max artifact id'
-  annotate 'A-4', i32(f), 'unknown A-4'
+  a4 = i32(f)
+  annotate 'A-4', a4, 'unknown A-4'
   expect 'A-5', i32(f), a1, 'unknown A-1'
-  expect 'A-6', i32(f), a3
+  expect 'A-6', i32(f), a3, 'max artifact id'
   expect 'A-7', i32(f), -1
   expect 'A-8', i32(f), -1
-  annotate 'A-9', i32(f), 'max historical figure id'
+  a9 = i32(f)
+  annotate 'A-9', a9, 'max historical figure id'
   annotate 'A-10', i32(f)
   annotate 'A-11', i32(f)
-  annotate 'A-12', i32(f), 'max unit id'
+  a12 = i32(f)
+  annotate 'A-12', a12, 'max unit id'
   annotate 'A-13', i32(f)
   expect 'A-14', i32(f), -1
   expect 'A-15', i32(f), -1
   expect 'A-16', i32(f), -1
   expect 'A-17', i32(f), -1
-  annotate 'A-18', i32(f), 'unknown A-18'
-  annotate 'A-19', i32(f), 'unknown A-19'
-  expect 'A-20', i32(f), -1
+  a18 = i32(f)
+  annotate 'A-18', a18, 'unknown A-18'
+  a19 = i32(f)
+  annotate 'A-19', a19, 'unknown A-19'
+  a20 = i32(f)
+  annotate 'A-20', a20, 'unknown A-20'
   expect 'A-21', i32(f), -1
   expect 'A-22', i32(f), -1
   expect 'A-23', i32(f), -1
@@ -165,43 +171,68 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
   expect 'A-28', i32(f), 0
   expect 'A-29', i32(f), 0
   annotate 'A-30', s(f), 'world name'
-  annotate 'A-31', (l(f){l(f){s(f)}}), 'inorganic raws'
-  annotate 'A-32', (l(f){l(f){s(f)}}), 'item raws'
-  annotate 'A-33', (l(f){l(f){s(f)}}), 'creature raws'
-  annotate 'A-34', (l(f){l(f){s(f)}}), 'interaction raws'
-  annotate 'A-35', (l(f){s(f)}), 'inorganic string table'
-  annotate 'A-36', (l(f){s(f)}), 'plant string table'
-  annotate 'A-37', (l(f){s(f)}), 'body string table'
-  annotate 'A-38', (l(f){s(f)}), 'bodygloss string table'
-  annotate 'A-39', (l(f){s(f)}), 'creature string table'
-  annotate 'A-40', (l(f){s(f)}), 'item string table'
-  annotate 'A-41', (l(f){s(f)}), 'building string table'
-  annotate 'A-42', (l(f){s(f)}), 'entity string table'
-  annotate 'A-43', (l(f){s(f)}), 'word string table'
-  annotate 'A-44', (l(f){s(f)}), 'symbol string table'
-  annotate 'A-45', (l(f){s(f)}), 'translation string table'
-  annotate 'A-46', (l(f){s(f)}), 'color string table'
-  annotate 'A-47', (l(f){s(f)}), 'shape string table'
-  annotate 'A-48', (l(f){s(f)}), 'color_pattern string table'
-  annotate 'A-49', (l(f){s(f)}), 'reaction string table'
-  annotate 'A-50', (l(f){s(f)}), 'material_template string table'
-  annotate 'A-51', (l(f){s(f)}), 'tissue_template string table'
-  annotate 'A-52', (l(f){s(f)}), 'body_detail_plan string table'
-  annotate 'A-53', (l(f){s(f)}), 'creature_variation string table'
-  annotate 'A-54', (l(f){s(f)}), 'interaction string table'
-  annotate 'A-55', Hash[l(f){[i32(f), i32(f)]}]
+  a31 = l(f){l(f){s(f)}}
+  annotate 'A-31', a31, 'inorganic raws'
+  a32 = l(f){l(f){s(f)}}
+  annotate 'A-32', a32, 'item raws'
+  a33 = l(f){l(f){s(f)}}
+  annotate 'A-33', a33, 'creature raws'
+  a34 = l(f){l(f){s(f)}}
+  annotate 'A-34', a34, 'interaction raws'
+  a35 = l(f){s(f)}
+  annotate 'A-35', a35, 'inorganic string table'
+  a36 = l(f){s(f)}
+  annotate 'A-36', a36, 'plant string table'
+  a37 = l(f){s(f)}
+  annotate 'A-37', a37, 'body string table'
+  a38 = l(f){s(f)}
+  annotate 'A-38', a38, 'bodygloss string table'
+  a39 = l(f){s(f)}
+  annotate 'A-39', a39, 'creature string table'
+  a40 = l(f){s(f)}
+  annotate 'A-40', a40, 'item string table'
+  a41 = l(f){s(f)}
+  annotate 'A-41', a41, 'building string table'
+  a42 = l(f){s(f)}
+  annotate 'A-42', a42, 'entity string table'
+  a43 = l(f){s(f)}
+  annotate 'A-43', a43, 'word string table'
+  a44 = l(f){s(f)}
+  annotate 'A-44', a44, 'symbol string table'
+  a45 = l(f){s(f)}
+  annotate 'A-45', a45, 'translation string table'
+  a46 = l(f){s(f)}
+  annotate 'A-46', a46, 'color string table'
+  a47 = l(f){s(f)}
+  annotate 'A-47', a47, 'shape string table'
+  a48 = l(f){s(f)}
+  annotate 'A-48', a48, 'color_pattern string table'
+  a49 = l(f){s(f)}
+  annotate 'A-49', a49, 'reaction string table'
+  a50 = l(f){s(f)}
+  annotate 'A-50', a50, 'material_template string table'
+  a51 = l(f){s(f)}
+  annotate 'A-51', a51, 'tissue_template string table'
+  a52 = l(f){s(f)}
+  annotate 'A-52', a52, 'body_detail_plan string table'
+  a53 = l(f){s(f)}
+  annotate 'A-53', a53, 'creature_variation string table'
+  a54 = l(f){s(f)}
+  annotate 'A-54', a54, 'interaction string table'
+  a55 = Hash[l(f){[i32(f), i32(f)]}]
+  annotate 'A-55', a55
   expect 'A-56', (l(f){i32(f)}), []
-  annotate 'A-57', (l(f){i32(f)}), 'unknown A-4'
-  annotate 'A-58', (l(f){i32(f)}), 'unknown A-1'
-  annotate 'A-59', (l(f){i32(f)}), 'artifact ids'
+  annotate 'A-57', (l(f){i32(f)}), "unknown A-4 (#{a4})"
+  annotate 'A-58', (l(f){i32(f)}), "unknown A-1 (#{a1})"
+  annotate 'A-59', (l(f){i32(f)}), "artifact ids (#{a3})"
   expect 'A-60', (l(f){i32(f)}), []
   expect 'A-61', (l(f){i32(f)}), []
   expect 'A-62', (l(f){i32(f)}), []
   expect 'A-63', (l(f){i32(f)}), []
   expect 'A-64', (l(f){i32(f)}), []
-  annotate 'A-65', (l(f){i32(f)}), 'unknown A-18'
-  annotate 'A-66', (l(f){i32(f)}), 'unknown A-19'
-  expect 'A-67', (l(f){i32(f)}), []
+  annotate 'A-65', (l(f){i32(f)}), "unknown A-18 (#{a18})"
+  annotate 'A-66', (l(f){i32(f)}), "unknown A-19 (#{a19})"
+  annotate 'A-67', (l(f){i32(f)}), "unknown A-20 (#{a20})"
   expect 'A-68', (l(f){i32(f)}), []
   expect 'A-69', (l(f){i32(f)}), []
   expect 'A-70', (l(f){i32(f)}), []
@@ -240,7 +271,7 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
     expect 'B-26', b26, [0, 1, 3], 'bitfield'
     unless b26 & 2 == 0
       expect 'B-27', i32(f), 7
-      expect 'B-28', i32(f), 3539365
+      expect 'B-28', i32(f), [33357861, 3539365]
       expect 'B-29', i16(f), 0
       expect 'B-30', i32(f), -1
       expect 'B-31', i32(f), -1
@@ -248,7 +279,7 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
       expect 'B-33', i32(f), 0
       expect 'B-34', i16(f), 0
       expect 'B-35', i32(f), 6
-      expect 'B-36', i32(f), 3539365
+      expect 'B-36', i32(f), [33357861, 3539365]
       expect 'B-37', i16(f), 0
       expect 'B-38', i32(f), -1
       expect 'B-39', i32(f), -1
@@ -263,7 +294,7 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
     end
     unless b26 & 1 == 0
       expect 'B-48', i32(f), 9
-      expect 'B-49', i16(f), [37, 38]
+      expect 'B-49', i16(f), [36, 37, 38]
       annotate 'B-50', i32(f)
       annotate 'B-51', i32(f)
       expect 'B-52', i32(f), -1
@@ -276,7 +307,8 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
     end
     annotate 'B-59', s(f), if b0 & 0x800 == 0 then 'book title' else 'artifact description' end
     unless b0 & 0x800 == 0
-      expect 'B-60', i32(f), [20, 22, 32]
+      b60 = i32(f)
+      annotate 'B-60', b60
       expect 'B-61', i16(f), 6
     end
   end
