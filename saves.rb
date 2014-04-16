@@ -272,7 +272,8 @@ begin
     expect 'B-26', b26, [0, 1, 3], 'bitfield'
     unless b26 & 2 == 0
       expect 'B-27', i32(f), 7
-      expect 'B-28', i32(f), [33357861, 3539365]
+      b28 = i32(f)
+      expect 'B-28', b28, $b28 ||= b28, 'stays the same per-world, but not between worlds'
       expect 'B-29', i16(f), 0
       expect 'B-30', i32(f), -1
       expect 'B-31', i32(f), -1
@@ -280,7 +281,7 @@ begin
       expect 'B-33', i32(f), 0
       expect 'B-34', i16(f), 0
       expect 'B-35', i32(f), 6
-      expect 'B-36', i32(f), [33357861, 3539365]
+      expect 'B-36', i32(f), $b28, 'stays the same per-world, but not between worlds'
       expect 'B-37', i16(f), 0
       expect 'B-38', i32(f), -1
       expect 'B-39', i32(f), -1
@@ -295,7 +296,7 @@ begin
     end
     unless b26 & 1 == 0
       expect 'B-48', i32(f), 9
-      expect 'B-49', i16(f), [36, 37, 38]
+      expect 'B-49', i16(f), 36..38
       annotate 'B-50', i32(f)
       annotate 'B-51', i32(f)
       expect 'B-52', i32(f), -1
@@ -304,7 +305,8 @@ begin
       expect 'B-55', i16(f), 0
       annotate 'B-56', i32(f)
       expect 'B-57', i32(f), 1
-      annotate 'B-58', i32(f)
+      expect 'B-58', i32(f), $b58 ||= 0
+      $b58 += 1
     end
     annotate 'B-59', s(f), if b0 & 0x800 == 0 then 'book title' else 'artifact description' end
     unless b0 & 0x800 == 0
