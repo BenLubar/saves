@@ -132,6 +132,7 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
   expect 'Version', f.version, 1404, '0.34.11'
   puts
 
+begin
   expect 'A-0', i16(f), 0
   a1 = i32(f)
   annotate 'A-1', a1, 'unknown A-1'
@@ -343,10 +344,10 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
     expect 'C-11', c11, 0
     c12 = i32(f)
     expect 'C-12', c12, 0
-    c13 = i32(f)
-    expect 'C-13', c13, 0
-    c14 = i32(f)
-    expect 'C-14', c14, 0
+    c13 = l(f){i16(f)}
+    annotate 'C-13', c13
+    c14 = l(f){i32(f)}
+    annotate 'C-14', c14
     c15 = i32(f)
     expect 'C-15', c15, 0
     c16 = i32(f)
@@ -407,10 +408,10 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
     annotate 'C-43', c43
     c44 = l(f){i32(f)}
     annotate 'C-44', c44
-    c45 = i32(f)
-    expect 'C-45', c45, 0
-    c46 = i32(f)
-    expect 'C-46', c46, 0
+    c45 = l(f){i32(f)}
+    annotate 'C-45', c45
+    c46 = l(f){i16(f)}
+    annotate 'C-46', c46
     c47 = l(f){i32(f)}
     annotate 'C-47', c47
     c48 = l(f){i16(f)}
@@ -624,7 +625,7 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
     c152 = i32(f)
     annotate 'C-152', c152
     c153 = i16(f)
-    expect 'C-153', c153, 0
+    expect 'C-153', c153, [0, 256]
     c154 = i32(f)
     expect 'C-154', c154, 1
     c155 = i16(f)
@@ -657,17 +658,11 @@ open('ushul-minbaz/world.dat', 'rb') do |f|
     expect 'C-168', c168, [0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     c169 = i8(f)
     expect 'C-169', c169, 0
-    #  0000030: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-    #  0000040: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-    #  0000050: 0000 0000 ffff ffff 0000 0000 ffff ffff  ................
-    #  0000060: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-    #  0000070: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-    #  0000080: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-    #  0000090: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-    #  00000a0: 00
   end
 
+ensure
   IO.popen 'xxd', 'w' do |io|
     io.write f.read(0x1000)
   end
+end
 end
