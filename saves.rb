@@ -127,44 +127,59 @@ def annotate label, value, description='TODO'
   puts "#{label}\t#{value.inspect}\t(#{description})"
 end
 
-open('ushul-minbaz/world.dat', 'rb') do |f|
+open(ARGV[0] || 'ushul-minbaz/world.dat', 'rb') do |f|
   f = Decompressor.new f
   expect 'Version', f.version, 1404, '0.34.11'
   puts
 
 begin
-  expect 'A-0', i16(f), 0
+  a0 = i16(f)
+  expect 'A-0', a0, 0
   a1 = i32(f)
   annotate 'A-1', a1, 'unknown A-1'
-  expect 'A-2', i32(f), a1, 'unknown A-1'
+  a2 = i32(f)
+  expect 'A-2', a2, a1, 'unknown A-1'
   a3 = i32(f)
   annotate 'A-3', a3, 'max artifact id'
   a4 = i32(f)
   annotate 'A-4', a4, 'unknown A-4'
-  expect 'A-5', i32(f), a1, 'unknown A-1'
-  expect 'A-6', i32(f), a3, 'max artifact id'
-  expect 'A-7', i32(f), -1
-  expect 'A-8', i32(f), -1
+  a5 = i32(f)
+  expect 'A-5', a5, 0..a1, 'unknown A-1 (discovered)'
+  a6 = i32(f)
+  expect 'A-6', a6, 0..a3, 'max artifact id (discovered)'
+  a7 = i32(f)
+  annotate 'A-7', a7, 'unknown A-7; only seen in abandoned fortresses'
+  a8 = i32(f)
+  annotate 'A-8', a8, 'unknown A-8; only seen in abandoned fortresses'
   a9 = i32(f)
   annotate 'A-9', a9, 'max historical figure id'
-  annotate 'A-10', i32(f)
-  annotate 'A-11', i32(f)
+  a10 = i32(f)
+  annotate 'A-10', a10
+  a11 = i32(f)
+  annotate 'A-11', a11
   a12 = i32(f)
   annotate 'A-12', a12, 'max unit id'
-  annotate 'A-13', i32(f)
-  expect 'A-14', i32(f), -1
-  expect 'A-15', i32(f), -1
+  a13 = i32(f)
+  annotate 'A-13', a13
+  a14 = i32(f)
+  expect 'A-14', a14, -1
+  a15 = i32(f)
+  annotate 'A-15', a15, 'unknown A-15; only seen in abandoned fortresses'
   expect 'A-16', i32(f), -1
-  expect 'A-17', i32(f), -1
+  a17 = i32(f)
+  annotate 'A-17', a17, 'unknown A-17; only seen in abandoned fortresses'
   a18 = i32(f)
   annotate 'A-18', a18, 'unknown A-18'
   a19 = i32(f)
   annotate 'A-19', a19, 'unknown A-19'
   a20 = i32(f)
   annotate 'A-20', a20, 'unknown A-20'
-  expect 'A-21', i32(f), -1
-  expect 'A-22', i32(f), -1
-  expect 'A-23', i32(f), -1
+  a21 = i32(f)
+  annotate 'A-21', a21, 'unknown A-21; only seen in abandoned fortresses'
+  a22 = i32(f)
+  annotate 'A-22', a22, 'unknown A-22; only seen in abandoned fortresses'
+  a23 = i32(f)
+  annotate 'A-23', a23, 'unknown A-23; only seen in abandoned fortresses'
   annotate 'A-24', (opt(f){Name.new(f)}), 'world name'
   expect 'A-25', i8(f), 1
   expect 'A-26', i16(f), 0
@@ -221,28 +236,28 @@ begin
   a54 = l(f){s(f)}
   annotate 'A-54', a54, 'interaction string table'
   a55 = Hash[l(f){[i32(f), i32(f)]}]
-  annotate 'A-55', a55
+  annotate 'A-55', a55, 'artifact types'
   expect 'A-56', (l(f){i32(f)}), []
   annotate 'A-57', (l(f){i32(f)}), "unknown A-4 (#{a4})"
   annotate 'A-58', (l(f){i32(f)}), "unknown A-1 (#{a1})"
   annotate 'A-59', (l(f){i32(f)}), "artifact ids (#{a3})"
-  expect 'A-60', (l(f){i32(f)}), []
-  expect 'A-61', (l(f){i32(f)}), []
-  expect 'A-62', (l(f){i32(f)}), []
-  expect 'A-63', (l(f){i32(f)}), []
-  expect 'A-64', (l(f){i32(f)}), []
+  annotate 'A-60', (l(f){i16(f)}), 'unknown A-60; only seen in abandoned fortresses'
+  annotate 'A-61', (l(f){i32(f)}), 'unknown A-61; only seen in abandoned fortresses'
+  annotate 'A-62', (l(f){i32(f)}), 'unknown A-62; only seen in abandoned fortresses'
+  annotate 'A-63', (l(f){i32(f)}), 'unknown A-63; only seen in abandoned fortresses'
+  annotate 'A-64', (l(f){i32(f)}), 'unknown A-64; only seen in abandoned fortresses'
   annotate 'A-65', (l(f){i32(f)}), "unknown A-18 (#{a18})"
   annotate 'A-66', (l(f){i32(f)}), "unknown A-19 (#{a19})"
   annotate 'A-67', (l(f){i32(f)}), "unknown A-20 (#{a20})"
-  expect 'A-68', (l(f){i32(f)}), []
-  expect 'A-69', (l(f){i32(f)}), []
-  expect 'A-70', (l(f){i32(f)}), []
+  annotate 'A-68', (l(f){i32(f)}), 'unknown A-68; only seen in abandoned fortresses'
+  annotate 'A-69', (l(f){i32(f)}), 'unknown A-69; only seen in abandoned fortresses'
+  annotate 'A-70', (l(f){i32(f)}), 'unknown A-70; only seen in abandoned fortresses'
 
-  (0..a3).each do |i|
+  a55.each do |i, t|
     puts
     expect 'B-sep', f.read(8), "\xD0\x8A\xD0\x8A\xD0\x8A\x00\x00".b
     b0 = i32(f)
-    expect 'B-0', b0, [0x4, 0x804], 'bitfield'
+    expect 'B-0', b0, case t when 88 then 4 when 86 then 2052 else nil end, 'bitfield'
     expect 'B-1', i16(f), 0
     expect 'B-2', i16(f), 0
     expect 'B-3', i16(f), 0
@@ -272,8 +287,7 @@ begin
     expect 'B-26', b26, [0, 1, 3], 'bitfield'
     unless b26 & 2 == 0
       expect 'B-27', i32(f), 7
-      b28 = i32(f)
-      expect 'B-28', b28, $b28 ||= b28, 'stays the same per-world, but not between worlds'
+      annotate 'B-28', i32(f)
       expect 'B-29', i16(f), 0
       expect 'B-30', i32(f), -1
       expect 'B-31', i32(f), -1
@@ -281,7 +295,7 @@ begin
       expect 'B-33', i32(f), 0
       expect 'B-34', i16(f), 0
       expect 'B-35', i32(f), 6
-      expect 'B-36', i32(f), $b28, 'stays the same per-world, but not between worlds'
+      annotate 'B-36', i32(f)
       expect 'B-37', i16(f), 0
       expect 'B-38', i32(f), -1
       expect 'B-39', i32(f), -1
@@ -296,7 +310,7 @@ begin
     end
     unless b26 & 1 == 0
       expect 'B-48', i32(f), 9
-      expect 'B-49', i16(f), 36..38
+      expect 'B-49', i16(f), 35..38
       annotate 'B-50', i32(f)
       annotate 'B-51', i32(f)
       expect 'B-52', i32(f), -1
@@ -608,9 +622,9 @@ begin
     expect 'C-142', c142, 0
     c143 = i16(f)
     expect 'C-143', c143, 1
-    c144 = i32(f)
+    c144 = i16(f)
     expect 'C-144', c144, 0
-    c145 = i16(f)
+    c145 = i32(f)
     expect 'C-145', c145, 0
     c146 = i32(f)
     expect 'C-146', c146, 1
