@@ -14,7 +14,7 @@ done < list-com.txt
 
 for d in dffd-*.dat
 do
-	rm -r "${d%.dat}"
+	test -d "${d%.dat}" && rm -r "${d%.dat}"
 	mkdir "${d%.dat}"
 	cd "${d%.dat}"
 
@@ -24,8 +24,12 @@ do
 	# tar.whatever needs to be "unzipped" twice.
 	if [[ -f "${d%.dat}" ]]
 	then
-		7z x "${d%.dat}"
+		mv "${d%.dat}" "${d%.dat}.tar"
+		7z x "${d%.dat}.tar"
+		rm "${d%.dat}.tar"
 	fi
+
+	rm -rf "__MACOSX"
 
 	cd ..
 done

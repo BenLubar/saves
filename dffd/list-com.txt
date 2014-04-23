@@ -136,20 +136,14 @@ http://dffd.wimbli.com/download.php?id=8197&f=Jawmetal.zip
 http://dffd.wimbli.com/download.php?id=8196&f=Bogclasps.zip
 http://dffd.wimbli.com/download.php?id=8194&f=Orbtrances.rar
 http://dffd.wimbli.com/download.php?id=8189&f=DF+Modest%20Mod%20and%20Crops.zip
-http://dffd.wimbli.com/download.php?id=8188&f=region2.part2.rar
-http://dffd.wimbli.com/download.php?id=8187&f=region2.part1.rar
 http://dffd.wimbli.com/download.php?id=8184&f=Chamberdrums.zip
 http://dffd.wimbli.com/download.php?id=8183&f=Competetive%20fortress.zip
 http://dffd.wimbli.com/download.php?id=8179&f=region4.zip
 http://dffd.wimbli.com/download.php?id=8178&f=OrbTrances.rar
 http://dffd.wimbli.com/download.php?id=8177&f=Charmcrafted.zip
 http://dffd.wimbli.com/download.php?id=8174&f=region4.rar
-http://dffd.wimbli.com/download.php?id=8173&f=Salt%20Mine.zip
 http://dffd.wimbli.com/download.php?id=8172&f=region2.rar
 http://dffd.wimbli.com/download.php?id=8171&f=Charmcrafted%20Turn%201%20Complete%20Save.zip
-http://dffd.wimbli.com/download.php?id=8170&f=region15.part2.rar
-http://dffd.wimbli.com/download.php?id=8168&f=region15.part2.rar
-http://dffd.wimbli.com/download.php?id=8167&f=region15.part1.rar
 http://dffd.wimbli.com/download.php?id=8165&f=Orc%20fort%20embark.zip
 http://dffd.wimbli.com/download.php?id=8164&f=CharmCrafted%20initial%20save.zip
 http://dffd.wimbli.com/download.php?id=8163&f=Necro.zip
@@ -169,7 +163,6 @@ http://dffd.wimbli.com/download.php?id=8137&f=Necrothreat%20II.rar
 http://dffd.wimbli.com/download.php?id=8135&f=region11.rar
 http://dffd.wimbli.com/download.php?id=8134&f=Mirehole.zip
 http://dffd.wimbli.com/download.php?id=8132&f=Mirehole.zip
-http://dffd.wimbli.com/download.php?id=8130&f=DF%20WWZ.PNG
 http://dffd.wimbli.com/download.php?id=8129&f=Chamberdrums.zip
 http://dffd.wimbli.com/download.php?id=8125&f=Alutar.zip
 http://dffd.wimbli.com/download.php?id=8124&f=Alutar-spr-32-spr-33.zip
@@ -336,7 +329,6 @@ http://dffd.wimbli.com/download.php?id=7725&f=silverysects-spr-16.zip
 http://dffd.wimbli.com/download.php?id=7724&f=kobold%20camp-spr-105-aut-105.rar
 http://dffd.wimbli.com/download.php?id=7721&f=region_nostone.zip
 http://dffd.wimbli.com/download.php?id=7720&f=Rotation2.zip
-http://dffd.wimbli.com/download.php?id=7719&f=inorganic_stone_layer.txt
 http://dffd.wimbli.com/download.php?id=7718&f=region12.zip
 http://dffd.wimbli.com/download.php?id=7712&f=Amberjewel.zip
 http://dffd.wimbli.com/download.php?id=7710&f=Red%20vs%20Blue.zip
