@@ -27,10 +27,8 @@ http://dffd.wimbli.com/download.php?id=8485&f=region4.rar
 http://dffd.wimbli.com/download.php?id=8482&f=Demongate.zip
 http://dffd.wimbli.com/download.php?id=8480&f=region1.rar
 http://dffd.wimbli.com/download.php?id=8478&f=region4%20turn0.rar
-http://dffd.wimbli.com/download.php?id=8477&f=Dwarf%20Fortress%20Steelhold.zip
 http://dffd.wimbli.com/download.php?id=8476&f=Charmcrafted.rar
 http://dffd.wimbli.com/download.php?id=8470&f=region1.zip
-http://dffd.wimbli.com/download.php?id=8468&f=DFChocolate%200.34.11.rar
 http://dffd.wimbli.com/download.php?id=8467&f=Murderwheels.zip
 http://dffd.wimbli.com/download.php?id=8464&f=Drunk%20Fortress.zip
 http://dffd.wimbli.com/download.php?id=8457&f=region7.rar
@@ -127,7 +125,6 @@ http://dffd.wimbli.com/download.php?id=8221&f=Murdermachines.7z
 http://dffd.wimbli.com/download.php?id=8220&f=Dorfday.rar
 http://dffd.wimbli.com/download.php?id=8215&f=Charmcrafted%20-%20end%20of%20dolwin%20turn.rar
 http://dffd.wimbli.com/download.php?id=8209&f=region8.zip
-http://dffd.wimbli.com/download.php?id=8208&f=demonjustice%20full%20file.zip
 http://dffd.wimbli.com/download.php?id=8207&f=demonjustice.zip
 http://dffd.wimbli.com/download.php?id=8202&f=Bridgedstreams.zip
 http://dffd.wimbli.com/download.php?id=8200&f=Moltenchannels%201st%20Granite%201098.zip
@@ -135,7 +132,6 @@ http://dffd.wimbli.com/download.php?id=8198&f=region3.zip
 http://dffd.wimbli.com/download.php?id=8197&f=Jawmetal.zip
 http://dffd.wimbli.com/download.php?id=8196&f=Bogclasps.zip
 http://dffd.wimbli.com/download.php?id=8194&f=Orbtrances.rar
-http://dffd.wimbli.com/download.php?id=8189&f=DF+Modest%20Mod%20and%20Crops.zip
 http://dffd.wimbli.com/download.php?id=8184&f=Chamberdrums.zip
 http://dffd.wimbli.com/download.php?id=8183&f=Competetive%20fortress.zip
 http://dffd.wimbli.com/download.php?id=8179&f=region4.zip
@@ -143,7 +139,6 @@ http://dffd.wimbli.com/download.php?id=8178&f=OrbTrances.rar
 http://dffd.wimbli.com/download.php?id=8177&f=Charmcrafted.zip
 http://dffd.wimbli.com/download.php?id=8174&f=region4.rar
 http://dffd.wimbli.com/download.php?id=8172&f=region2.rar
-http://dffd.wimbli.com/download.php?id=8171&f=Charmcrafted%20Turn%201%20Complete%20Save.zip
 http://dffd.wimbli.com/download.php?id=8165&f=Orc%20fort%20embark.zip
 http://dffd.wimbli.com/download.php?id=8164&f=CharmCrafted%20initial%20save.zip
 http://dffd.wimbli.com/download.php?id=8163&f=Necro.zip
@@ -168,7 +163,6 @@ http://dffd.wimbli.com/download.php?id=8125&f=Alutar.zip
 http://dffd.wimbli.com/download.php?id=8124&f=Alutar-spr-32-spr-33.zip
 http://dffd.wimbli.com/download.php?id=8119&f=Jawmetal%20%20Spring%20259.zip
 http://dffd.wimbli.com/download.php?id=8118&f=Crystalmaze.rar
-http://dffd.wimbli.com/download.php?id=8116&f=Urvad.Strangercanyon.7z
 http://dffd.wimbli.com/download.php?id=8112&f=Jaw%20Metal%20Post%20Condorito.7z
 http://dffd.wimbli.com/download.php?id=8108&f=Shakecloistered,%20FUN%20FUN%20FUN!.zip
 http://dffd.wimbli.com/download.php?id=8096&f=DrunkFortress%20(1).rar
@@ -214,7 +208,6 @@ http://dffd.wimbli.com/download.php?id=7986&f=Dwarf%20Fort%20For%20Tanari%201.7z
 http://dffd.wimbli.com/download.php?id=7983&f=DrunkFortress.rar
 http://dffd.wimbli.com/download.php?id=7982&f=DrunkerFortress.zip
 http://dffd.wimbli.com/download.php?id=7981&f=Moltenchannels%201st%20Granite%201097.zip
-http://dffd.wimbli.com/download.php?id=7978&f=trolls.zip
 http://dffd.wimbli.com/download.php?id=7980&f=Necrochambers.zip
 http://dffd.wimbli.com/download.php?id=7979&f=Chaincraft.zip
 http://dffd.wimbli.com/download.php?id=7975&f=Fikodtun.rar
@@ -253,24 +246,16 @@ http://dffd.wimbli.com/download.php?id=7898&f=DrunkerFortress.rar
 http://dffd.wimbli.com/download.php?id=7897&f=Necrothreat%20II.zip
 http://dffd.wimbli.com/download.php?id=7896&f=Crownplank.zip
 http://dffd.wimbli.com/download.php?id=7892&f=Chaincraft.zip
-http://dffd.wimbli.com/download.php?id=7891&f=patch_SKH.zip
-http://dffd.wimbli.com/download.php?id=7888&f=df%20from%20scratch%20hugo%20graphics.zip
 http://dffd.wimbli.com/download.php?id=7885&f=DrunkerFortress.zip
-http://dffd.wimbli.com/download.php?id=7881&f=patch_SKH.rar
 http://dffd.wimbli.com/download.php?id=7879&f=MD%20FORT.rar
 http://dffd.wimbli.com/download.php?id=7877&f=Anguishedmountain.rar
 http://dffd.wimbli.com/download.php?id=7874&f=region6.rar
 http://dffd.wimbli.com/download.php?id=7873&f=Greaterrooms.zip
-http://dffd.wimbli.com/download.php?id=7854&f=AlchemyRaws%20v3.zip
 http://dffd.wimbli.com/download.php?id=7871&f=drunkerfortress.zip
 http://dffd.wimbli.com/download.php?id=7870&f=Jaw%20Metal.7z
-http://dffd.wimbli.com/download.php?id=7811&f=objects.zip
-http://dffd.wimbli.com/download.php?id=7864&f=The%20Legendary%20Planes%20-%20Isoworld%20project%20-%202013-07-31.zip
 http://dffd.wimbli.com/download.php?id=7868&f=silverysects.rar
-http://dffd.wimbli.com/download.php?id=7860&f=dffromscratch_SKH_28.07.2013.rar
 http://dffd.wimbli.com/download.php?id=7857&f=Greaterrooms.zip
 http://dffd.wimbli.com/download.php?id=7856&f=MurderMachines.zip
-http://dffd.wimbli.com/download.php?id=7853&f=buttfortress_year_2.zip
 http://dffd.wimbli.com/download.php?id=7848&f=DrunkerFortress.rar
 http://dffd.wimbli.com/download.php?id=7847&f=DrunkerFortress.rar
 http://dffd.wimbli.com/download.php?id=7846&f=Masterwork%20the%20Fort.zip
@@ -284,13 +269,11 @@ http://dffd.wimbli.com/download.php?id=7830&f=DrunkerFortress.rar
 http://dffd.wimbli.com/download.php?id=7829&f=SparkgearXIII%2014th%20July%202013%20-%20Ieb%27s%20Turn.zip
 http://dffd.wimbli.com/download.php?id=7822&f=SparkgearXIII.zip
 http://dffd.wimbli.com/download.php?id=7821&f=Skyscrapes%202.zip
-http://dffd.wimbli.com/download.php?id=7776&f=objects.zip
 http://dffd.wimbli.com/download.php?id=7820&f=Shakecloistered.zip
 http://dffd.wimbli.com/download.php?id=7817&f=Sparkgear%20XIII.zip
 http://dffd.wimbli.com/download.php?id=7816&f=region1.zip
 http://dffd.wimbli.com/download.php?id=7815&f=Masterwork%20the%20Fort.zip
 http://dffd.wimbli.com/download.php?id=7814&f=current.zip
-http://dffd.wimbli.com/download.php?id=7797&f=objects.zip
 http://dffd.wimbli.com/download.php?id=7813&f=Dragonskulls.zip
 http://dffd.wimbli.com/download.php?id=7810&f=Sparkgear%20XIII%20Turn%202.zip
 http://dffd.wimbli.com/download.php?id=7809&f=Merchantlusts.zip
@@ -305,7 +288,6 @@ http://dffd.wimbli.com/download.php?id=7791&f=Merchantlusts.rar
 http://dffd.wimbli.com/download.php?id=7784&f=region_nostone2.zip
 http://dffd.wimbli.com/download.php?id=7780&f=Merchantlusts.rar
 http://dffd.wimbli.com/download.php?id=7779&f=Red%20vs%20Blue.zip
-http://dffd.wimbli.com/download.php?id=7778&f=GateIvory11Full.7z
 http://dffd.wimbli.com/download.php?id=7777&f=Flareportals.zip
 http://dffd.wimbli.com/download.php?id=7775&f=Little%20Village%20-%20Kobold%20Camp.rar
 http://dffd.wimbli.com/download.php?id=7774&f=Merchantlusts%20551.zip
@@ -319,7 +301,6 @@ http://dffd.wimbli.com/download.php?id=7757&f=Ghoshash%20Snazaga%20-%2001-01-261
 http://dffd.wimbli.com/download.php?id=7752&f=DrunkerFortress.rar
 http://dffd.wimbli.com/download.php?id=7750&f=dorfs400.7z
 http://dffd.wimbli.com/download.php?id=7747&f=Masterwork%20the%20Fort.rar
-http://dffd.wimbli.com/download.php?id=7744&f=objects.rar
 http://dffd.wimbli.com/download.php?id=7715&f=region1-spr-130.rar
 http://dffd.wimbli.com/download.php?id=7741&f=Skyscrapes%202.zip
 http://dffd.wimbli.com/download.php?id=7739&f=AdventurerRetirementHome.rar
@@ -405,9 +386,7 @@ http://dffd.wimbli.com/download.php?id=7565&f=DrunkerFortress.zip
 http://dffd.wimbli.com/download.php?id=7561&f=Pearlcave_Fr%26%2365533%3Bhling12_civforum_sg.zip
 http://dffd.wimbli.com/download.php?id=7560&f=Dueling%20Forts.rar
 http://dffd.wimbli.com/download.php?id=7559&f=Ghoshash%20Snazaga%20-%2025-03-255.zip
-http://dffd.wimbli.com/download.php?id=7557&f=Succession%20Fort.rar
 http://dffd.wimbli.com/download.php?id=7553&f=Moltenchannels%20(Current).zip
-http://dffd.wimbli.com/download.php?id=7552&f=Rockywires%20Year%202.rar
 http://dffd.wimbli.com/download.php?id=7551&f=region2.zip
 http://dffd.wimbli.com/download.php?id=7550&f=region1-spr-1007.zip
 http://dffd.wimbli.com/download.php?id=7548&f=XKCD%20-%20Flareportals.rar
@@ -421,7 +400,6 @@ http://dffd.wimbli.com/download.php?id=7537&f=region4%20-%20year%202.zip
 http://dffd.wimbli.com/download.php?id=7536&f=Murdermachines.zip
 http://dffd.wimbli.com/download.php?id=7535&f=XKCD%20-%20Flareportals.rar
 http://dffd.wimbli.com/download.php?id=7532&f=CheeseFurnace174.zip
-http://dffd.wimbli.com/download.php?id=7523&f=GateIvory11Full.zip
 http://dffd.wimbli.com/download.php?id=7458&f=utopia3.zip
 http://dffd.wimbli.com/download.php?id=7521&f=region4.zip
 http://dffd.wimbli.com/download.php?id=7515&f=region25.zip
@@ -435,10 +413,8 @@ http://dffd.wimbli.com/download.php?id=7500&f=Retirement%20Home%20-%20post%20apo
 http://dffd.wimbli.com/download.php?id=7498&f=DrunkerFortress.zip
 http://dffd.wimbli.com/download.php?id=7496&f=region8.rar
 http://dffd.wimbli.com/download.php?id=7495&f=DrunkerFortress.zip
-http://dffd.wimbli.com/download.php?id=7494&f=GateIvory10Full.zip
 http://dffd.wimbli.com/download.php?id=7491&f=Moltenchannels%201090.zip
 http://dffd.wimbli.com/download.php?id=7486&f=Amberjewel.zip
-http://dffd.wimbli.com/download.php?id=7457&f=RockyWires%20Full%20Game.rar
 http://dffd.wimbli.com/download.php?id=7484&f=DrunkerFortress.zip
 http://dffd.wimbli.com/download.php?id=7483&f=DrunkerFortress.zip
 http://dffd.wimbli.com/download.php?id=7482&f=GiTPCivForge.zip
@@ -452,7 +428,6 @@ http://dffd.wimbli.com/download.php?id=7472&f=10hourfortHavingPhun.zip
 http://dffd.wimbli.com/download.php?id=7468&f=DrunkerFortress.rar
 http://dffd.wimbli.com/download.php?id=7466&f=Flabort10HourChallenge.zip
 http://dffd.wimbli.com/download.php?id=7465&f=Innsmouth.zip
-http://dffd.wimbli.com/download.php?id=7463&f=regionghoullights.rar
 http://dffd.wimbli.com/download.php?id=7460&f=regionArchtomb-spr-103.rar
 http://dffd.wimbli.com/download.php?id=7459&f=CYOF.zip
 http://dffd.wimbli.com/download.php?id=7456&f=Thatdude%2010hour%20fort.zip
@@ -530,7 +505,6 @@ http://dffd.wimbli.com/download.php?id=7318&f=region3.zip
 http://dffd.wimbli.com/download.php?id=7314&f=Axerings.zip
 http://dffd.wimbli.com/download.php?id=7311&f=Skyscrapes%202.zip
 http://dffd.wimbli.com/download.php?id=7309&f=regionGITP2.rar
-http://dffd.wimbli.com/download.php?id=7308&f=GateIvory10Full.rar
 http://dffd.wimbli.com/download.php?id=7304&f=Moltenchannels-1082.zip
 http://dffd.wimbli.com/download.php?id=7303&f=DrunkFortress.rar
 http://dffd.wimbli.com/download.php?id=7302&f=poor_dwarven_losers_challenge_Jimmy.zip
@@ -540,7 +514,6 @@ http://dffd.wimbli.com/download.php?id=7299&f=Amberjewel.zip
 http://dffd.wimbli.com/download.php?id=7298&f=DrunkFortress.zip
 http://dffd.wimbli.com/download.php?id=7296&f=Murdermachines.rar
 http://dffd.wimbli.com/download.php?id=7295&f=regionGITP2.rar
-http://dffd.wimbli.com/download.php?id=7294&f=dwarf%20fortress%2034.11%20-%20Copy.zip
 http://dffd.wimbli.com/download.php?id=7291&f=Demonslaughter%20Year%20Four.zip
 http://dffd.wimbli.com/download.php?id=7289&f=Horrorfailed.rar
 http://dffd.wimbli.com/download.php?id=7288&f=civforum.rar
@@ -566,7 +539,6 @@ http://dffd.wimbli.com/download.php?id=7249&f=region7.rar
 http://dffd.wimbli.com/download.php?id=7247&f=DrunkFortress.zip
 http://dffd.wimbli.com/download.php?id=7246&f=Demonlaughter%20Year%20One.zip
 http://dffd.wimbli.com/download.php?id=7243&f=Amberjewel.zip
-http://dffd.wimbli.com/download.php?id=7240&f=GateIvory10Full.zip
 http://dffd.wimbli.com/download.php?id=7239&f=Skyscrapes%202.rar
 http://dffd.wimbli.com/download.php?id=7236&f=regionGITP2.7z
 http://dffd.wimbli.com/download.php?id=7235&f=region%20Amberjewel-sp-spr-91.rar
@@ -638,14 +610,11 @@ http://dffd.wimbli.com/download.php?id=7068&f=region3.rar
 http://dffd.wimbli.com/download.php?id=7066&f=HF-508.zip
 http://dffd.wimbli.com/download.php?id=7064&f=GateIvory.zip
 http://dffd.wimbli.com/download.php?id=7063&f=save.rar
-http://dffd.wimbli.com/download.php?id=7062&f=fortforbaz.zip
 http://dffd.wimbli.com/download.php?id=7061&f=DrunkFortress.rar
-http://dffd.wimbli.com/download.php?id=7054&f=Metalfrills.zip
 http://dffd.wimbli.com/download.php?id=7046&f=NecroThreat.zip
 http://dffd.wimbli.com/download.php?id=7045&f=New%20Murderfarmed.rar
 http://dffd.wimbli.com/download.php?id=7042&f=TKCrioca.rar
 http://dffd.wimbli.com/download.php?id=7041&f=DrunkFortress.rar
-http://dffd.wimbli.com/download.php?id=7039&f=GateIvory9Full.zip
 http://dffd.wimbli.com/download.php?id=7038&f=hauntedhalls.zip
 http://dffd.wimbli.com/download.php?id=7035&f=region3.rar
 http://dffd.wimbli.com/download.php?id=7034&f=Syrupsquid.zip
@@ -661,13 +630,11 @@ http://dffd.wimbli.com/download.php?id=7020&f=Machinemorningspart2.rar
 http://dffd.wimbli.com/download.php?id=7019&f=region1.zip
 http://dffd.wimbli.com/download.php?id=7016&f=StNPO%20-%20Year%2014.rar
 http://dffd.wimbli.com/download.php?id=7012&f=NecroThreat.zip
-http://dffd.wimbli.com/download.php?id=7011&f=No%20Mining%20Challenge%20Phoebus.zip
 http://dffd.wimbli.com/download.php?id=7010&f=DrunkFortress.zip
 http://dffd.wimbli.com/download.php?id=7008&f=DF%20save.rar
 http://dffd.wimbli.com/download.php?id=7007&f=DF%20save.rar
 http://dffd.wimbli.com/download.php?id=7006&f=HF-507.zip
 http://dffd.wimbli.com/download.php?id=7004&f=HF-507.zip
-http://dffd.wimbli.com/download.php?id=7003&f=No%20Mining%20Challenge.zip
 http://dffd.wimbli.com/download.php?id=7002&f=Sodel%20Shiptone.zip
 http://dffd.wimbli.com/download.php?id=7001&f=TerrorsplatteredY1.zip
 http://dffd.wimbli.com/download.php?id=7000&f=TrialFires.zip
@@ -681,7 +648,6 @@ http://dffd.wimbli.com/download.php?id=6984&f=GITP2.rar
 http://dffd.wimbli.com/download.php?id=6980&f=regionGITP.zip
 http://dffd.wimbli.com/download.php?id=6979&f=region1-spr-128.zip
 http://dffd.wimbli.com/download.php?id=6978&f=StNPO%20-%20Year%204.zip
-http://dffd.wimbli.com/download.php?id=6977&f=GateIvoryFull.zip
 http://dffd.wimbli.com/download.php?id=6976&f=MW-Sucession%20304.rar
 http://dffd.wimbli.com/download.php?id=6975&f=region3.7z
 http://dffd.wimbli.com/download.php?id=6973&f=DrunkFortress.rar
@@ -693,7 +659,6 @@ http://dffd.wimbli.com/download.php?id=6960&f=TeamKIll.rar
 http://dffd.wimbli.com/download.php?id=6959&f=Alfa%20Fortress.zip
 http://dffd.wimbli.com/download.php?id=6956&f=DrunkFortress.zip
 http://dffd.wimbli.com/download.php?id=6954&f=region1.zip
-http://dffd.wimbli.com/download.php?id=6951&f=MLD.zip
 http://dffd.wimbli.com/download.php?id=6952&f=NewMuderfarmed.7z
 http://dffd.wimbli.com/download.php?id=6949&f=GateIvory6.7z
 http://dffd.wimbli.com/download.php?id=6947&f=regionGITP.zip
@@ -724,7 +689,6 @@ http://dffd.wimbli.com/download.php?id=6891&f=Zemalf%27s%20Dwarf%20Fortress%20Tu
 http://dffd.wimbli.com/download.php?id=6890&f=region6.zip
 http://dffd.wimbli.com/download.php?id=6889&f=Autentico.zip
 http://dffd.wimbli.com/download.php?id=6887&f=AI-kibstable-spr-129.zip
-http://dffd.wimbli.com/download.php?id=6886&f=New_Murderfarmed_Winter_FullGame_Ironhand.7z
 http://dffd.wimbli.com/download.php?id=6884&f=NecroThreat.zip
 http://dffd.wimbli.com/download.php?id=6882&f=TrialFires.rar
 http://dffd.wimbli.com/download.php?id=6880&f=Machinemorning2.3.rar
@@ -829,7 +793,6 @@ http://dffd.wimbli.com/download.php?id=6323&f=Towerproject.rar
 http://dffd.wimbli.com/download.php?id=6660&f=region1.zip
 http://dffd.wimbli.com/download.php?id=6659&f=Markedangels-spr-260.rar
 http://dffd.wimbli.com/download.php?id=6652&f=region1.zip
-http://dffd.wimbli.com/download.php?id=6650&f=Copy%20of%20Murderfarmed%20Region.zip
 http://dffd.wimbli.com/download.php?id=6644&f=Boatbusted%20-%20Year%201%20Save.zip
 http://dffd.wimbli.com/download.php?id=6643&f=region13.zip
 http://dffd.wimbli.com/download.php?id=6642&f=region1.zip
@@ -838,7 +801,6 @@ http://dffd.wimbli.com/download.php?id=6633&f=910CMX.rar
 http://dffd.wimbli.com/download.php?id=6630&f=region1.zip
 http://dffd.wimbli.com/download.php?id=6628&f=region1.zip
 http://dffd.wimbli.com/download.php?id=6627&f=Wallsnarling.zip
-http://dffd.wimbli.com/download.php?id=6625&f=Hill%20Of%20Rites%20MWDF.rar
 http://dffd.wimbli.com/download.php?id=6622&f=region7.rar
 http://dffd.wimbli.com/download.php?id=6620&f=Copy%20of%20Murderfarmed%20Region.rar
 http://dffd.wimbli.com/download.php?id=6619&f=region1.zip
@@ -879,6 +841,5 @@ http://dffd.wimbli.com/download.php?id=6474&f=StNPO%20-%202.zip
 http://dffd.wimbli.com/download.php?id=6464&f=Markedangels%20-%20Kopia.rar
 http://dffd.wimbli.com/download.php?id=6463&f=masterwork-successio-win-103.rar
 http://dffd.wimbli.com/download.php?id=6458&f=region1.zip
-http://dffd.wimbli.com/download.php?id=6455&f=Tower%20Project%20With%20Int.rar
 http://dffd.wimbli.com/download.php?id=6447&f=Murderfarmed.rar
 http://dffd.wimbli.com/download.php?id=6437&f=flushedmoirail.rar
